@@ -3,7 +3,7 @@
 echo "all args passed to script: $@"
 echo "Number of variables passed to script: $#"
 echo "Script name: $0"
-echo "present Directory: $pwd "
+echo "present Directory: $PWD "
 echo "who is running: $USER"
 echo "Home directory of current User: $HOME"
 echo "PID of the script: $$"
