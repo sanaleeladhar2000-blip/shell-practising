@@ -10,8 +10,12 @@ Number=$1
 if [ $Number -gt 20 ]; then
     echo "Given number: $Number is grater than 20"
 
+elif [ $Number -eq 20 ]; then
+
+    echo "Given Number: $Number is Equal to 20"
+
 else
     echo "Given Number: $Number is less than 20"
-    
+
 fi
 
