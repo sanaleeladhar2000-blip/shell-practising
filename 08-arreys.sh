@@ -1,6 +1,6 @@
 #!/bin/bash
 
-Fruits = ("apple","mango","jama")
+Fruits = ("apple" "mango" "jama")
 
 echo "Fruits are: ${Fruits[@]}"
 echo "first Frust is: ${Fruits[0]}"
