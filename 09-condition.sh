@@ -7,6 +7,9 @@ Number=$1
 # -eq = Equal
 # -ne = not Equal
 
-if [$Number -gt 20]; then
+if [ $Number -gt 20 ]; then
     echo "Given number: $Number is grater than 20"
+
+else
+    echo "Given Number: $Number is less than 20"
 fi
