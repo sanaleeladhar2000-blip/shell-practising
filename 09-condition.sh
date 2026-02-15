@@ -12,4 +12,7 @@ if [ $Number -gt 20 ]; then
 
 else
     echo "Given Number: $Number is less than 20"
+
+else
+    echo "Given number: $Number is Equal to 20"
 fi
