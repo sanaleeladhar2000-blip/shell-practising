@@ -12,6 +12,8 @@ fi
 
 echo "Installing nginx for the frontend"
 dnf install nginx -y 
+
+
 if [ $? -ne 0 ]; then
     echo "Installation failed"
     exit 1
