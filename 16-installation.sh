@@ -11,7 +11,7 @@ else
 fi
 
 echo "Installing nginx for the frontend"
-dnf install nginxxx -y 
+dnf install nginx -y 
 
 
 if [ $? -ne 0 ]; then
